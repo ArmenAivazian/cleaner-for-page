@@ -1,0 +1,17 @@
+{
+  "name": "Cleaner for page",
+  "version": "0.1.0",
+  "description": " clear the page from unnecessary stuff",
+  "manifest_version": 3,
+  "author": "Armen Aivazian <prog.dev.rob@gmail.com>",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Cleaner for page"
+  },
+  "content_scripts": [
+    {
+      "js": ["getpocket.js"],
+      "matches": ["https://getpocket.com/*"]
+    }
+  ]
+}
