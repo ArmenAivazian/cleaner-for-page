@@ -13,5 +13,6 @@
       "js": ["getpocket.js"],
       "matches": ["https://getpocket.com/*"]
     }
-  ]
+  ],
+  "permissions": ["activeTab", "scripting"]
 }
